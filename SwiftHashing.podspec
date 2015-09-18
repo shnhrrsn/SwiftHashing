@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
 	s.social_media_url   = "http://twitter.com/shnhrrsn"
 
 	s.platform     = :ios, "8.0"
+	s.watchos.deployment_target = "2.0"
 
 	s.source       = { :git => "https://github.com/shnhrrsn/SwiftHashing.git", :branch => 'master' }
 
